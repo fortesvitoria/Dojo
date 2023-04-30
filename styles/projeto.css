@@ -1,0 +1,9 @@
+
+.container__caroussel_projeto {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem_projeto_caroussel {
+    max-width: 800px;
+}

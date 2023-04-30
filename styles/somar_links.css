@@ -1,0 +1,23 @@
+.somar_container {
+    background: var(--fundo-links);
+    padding: 2em;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.social_links {
+    color: var(--branco);
+    text-align: left;
+    text-decoration: none;
+    background: url(./imagens/fundo-social.png)  no-repeat;
+}
+
+.social_links a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.social_links a:hover{
+    font-weight: 500;
+}

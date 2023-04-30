@@ -1,0 +1,17 @@
+.navbar {
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.titulo_nav {
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+}

@@ -1,0 +1,152 @@
+.textos, .btn {
+    font-size: 16px;
+    font-family: var(--fonte-secundaria);
+}
+
+.texto_xs {
+    font-family: var(--fonte-secundaria);
+        font-size: 12px;
+}
+
+.titulos_secundario {
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.indicador_img {
+    width: 60%;
+    padding-bottom: 2em;
+}
+
+.btn_indicador_img {
+    width: 50px;
+}
+
+.objetivos {
+    background: var(--fundo-links);
+}
+
+.container_btn_ods {
+    display: flex;
+    justify-content: start;
+}
+
+.btn_btn_ods{
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+}
+
+
+.icone_ods_indicador{
+    width: 80px;
+}
+
+.card_indicador_forma {
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+.texto_btn_indicadores {
+    text-align: center;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.card_desativado {
+    background-color: var(--cinza);
+}
+
+.card_indicador .icone_ods_indicador {
+    display: block;
+  }
+  
+  .card_indicador .texto_btn_indicadores {
+    display: none;
+  }
+  
+  .card_indicador:hover .icone_ods_indicador {
+    display: none;
+  }
+  
+  .card_indicador:hover .texto_btn_indicadores {
+    display: block;
+  }
+
+  
+.botao-rosa {
+    background-color: var(--rosa);
+    border-color: var(--rosa);
+}
+
+.botao-rosa:hover {
+    background-color: var(--rosa-hover);
+    border-color: var(--rosa-hover);
+}
+
+.botao-laranja {
+    background-color: var(--laranja);
+    border-color: var(--laranja);
+}
+
+.botao-laranja:hover {
+    background-color: var(--laranja-hover);
+    border-color: var(--laranja-hover);
+}
+
+.botao-azul {
+    background-color: var(--azul);
+    border-color: var(--azul);
+}
+
+.botao-azul:hover {
+    background-color: var(--azul-hover);
+    border-color: var(--azul-hover);
+}
+
+
+.botao-verde {
+    background-color: var(--verde);
+    border-color: var(--verde);
+}
+
+.botao-verde:hover {
+    background-color: var(--verde-hover);
+    border-color: var(--verde-hover);
+}
+
+.botao-amarelo {
+    background-color: var(--amarelo);
+    border-color: var(--amarelo);
+}
+
+.botao-amarelo:hover {
+    background-color: var(--amarelo-hover);
+    border-color: var(--amarelo-hover);
+}
+
+
+
+
+
+  @media screen and (max-width: 505px) {
+    .indicador2_img {
+        width: 90%;
+    }
+
+    .lista_indicadores {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container__btn_cards {
+        margin: 0 1em;
+    }
+
+  }

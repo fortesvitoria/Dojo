@@ -1,0 +1,32 @@
+.titulos_caroussel {
+    font-family: var(--fonte-primaria);
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1em 0 0.2em;
+    font-weight: 600;
+}
+
+.textos_caroussel {
+    font-family: var(--fonte-secundaria);
+}
+
+
+@media screen and (max-width: 875px) {
+    .titulos_caroussel {
+        font-size: 16px;
+    }
+    
+    .textos_caroussel {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .titulos_caroussel {
+        font-size: 14px;
+    }
+    
+    .textos_caroussel {
+        font-size: 12px;
+    }    
+}

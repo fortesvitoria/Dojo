@@ -1,0 +1,61 @@
+.container__busca {
+    width: 80%;
+
+}
+
+.formulario_select {
+    margin-bottom: 1em;
+}
+
+
+.container_projetos {
+    text-align: center;
+}
+
+.container_card_projeto {
+    display: flex;
+}
+
+
+.texto-projeto {
+    text-align: justify;
+}
+
+.icone_cidade {
+    width: 50px;
+    margin-right: 0.5em;
+
+}
+
+.icone_link {
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.projetos_icone_ods {
+    width: 30%;
+}
+
+.container_bandeira {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.container_bandeira p {
+    color: var(--preto);
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 1020px) {
+
+    .container__busca {
+        width: 100%;
+    }
+
+    .img-card-projeto {
+        width: 100%;
+    }
+}

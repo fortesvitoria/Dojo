@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+@import url(styles/cabecalho.css);
+@import url(styles/container_sobre.css);
+@import url(styles/caroussel.css);
+@import url(styles/container_cards.css);
+@import url(styles/apoiadores.css);
+@import url(styles/somar_links.css);
+@import url(styles/footer.css);
+@import url(styles/login.css);
+@import url(styles/indicadores.css);
+@import url(styles/projetos.css);
+@import url(styles/projeto.css);
+
+
+:root {
+    --preto: #000000dc;
+    --branco: #f1f1f1;
+    --branco-hover: #cfcdcd;
+    --cinza: #afaeae;
+    --rosa: #d63384;
+    --rosa-hover: #ec3993;
+    --amarelo: #ffc107;
+    --amarelo-hover: #f7cb3e;
+    --verde: #198754;
+    --verde-hover: #1f965e;
+    --laranja: #fd7e14;
+    --laranja-hover: #ff8a2a;
+    --azul: #0d6efd;
+    --azul-hover: #3082fc;
+    --branco: #f1f1f1;
+    --fundo-links: linear-gradient(97.54deg, #c9def7f1.20%, #326589 65.37%);
+
+
+    --fonte-secundaria: 'Poppins', sans-serif;
+    --fonte-primaria: 'Work Sans', sans-serif;
+
+}
+body {
+    width: 100vw;
+}
+.titulos {
+    font-family: var(--fonte-primaria);
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 1em 0 0.2em;
+    font-weight: 600;
+}
+
+.textos,
+.btn {
+    font-size: 14px;
+    font-family: var(--fonte-secundaria);
+}
+
+.texto_xs {
+    font-family: var(--fonte-secundaria);
+    font-size: 12px;
+}
+
+.titulos_secundario {
+    font-family: var(--fonte-secundaria);
+    font-size: 18px;
+}
+
+.link {
+    text-decoration: none;
+}

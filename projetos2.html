@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa SOMAR</title>
+    <!-- Importando icone aba -->
+    <link rel="icon" href="Imagens/iconeTransparente.png">
+
+    <!-- Importando css reset -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- Importando css do bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+
+    <!-- Importando css -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-primary-subtle">
+    <!-- Inicio do cabecalho da pagina -->
+    <header class="cabecalho">
+        <!-- Inicio do icone do cabeçalho -->
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="nav-link active" aria-current="page" href="index.html">
+                    <h1 class="m-0"><img src="Imagens/logoNomeTransparente.png" alt="logo Programa Somar"
+                            class="d-block"></h1>
+                </a>
+                <button class="navbar-toggler rounded-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active titulo_nav" href="#">Objetivos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active titulo_nav" href="#">Regiões</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-nowrap titulo_nav" href="#">Fale conosco</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-5 textos_xs" type="search"
+                            placeholder="Busque por nome, regiao, etc" aria-label="Search" />
+                        <button class="btn btn-light rounded-5" type="submit">
+                            Buscar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Fim do cabeçalho -->
+
+    </header>
+
+
+    </header>
+
+    <!-- Inicio da seção pesquisa -->
+    <section class="container__sobre d-flex justify-content-center">
+        <div class="p-5 container__busca ">
+            <div class="card card_pesquisa_avancada p-0">
+                <div class="">
+                    <h5 class="titulos">Busca Avançada</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row" >
+
+                        <div class="col-12">
+                            <div class="input-group mb-3 formulario_input">
+                                <span class="input-group-text textos" id="inputGroup-sizing-default">Nome do
+                                    projeto</span>
+                                <input type="text" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-default" >
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6" >
+                            <select class="form-select formulario_select textos" aria-label="Default select example">
+                                <option selected>Objetivo</option>
+                                <option value="1">1. Erradicar a pobreza</option>
+                                <option value="2">2. Erradicar a fome</option>
+                                <option value="3">3. Saúde e bem-estar</option>
+                                <option value="4">4. Educação de qualidade</option>
+                                <option value="5">5. Igualdade de gênero</option>
+                                <option value="6">6. Água potável e saneamento</option>
+                                <option value="7">7. Energia limpa e acessível</option>
+                                <option value="8">8. Trabalho descente e crescimento</option>
+                                <option value="9">9. Indústria, inovação e infraestrutura</option>
+                                <option value="10">10. Redução das desigualdades</option>
+                                <option value="11">11. Cidades e comunidades sustentáveis</option>
+                                <option value="12">12. Consumo e produção responsáveis</option>
+                                <option value="13">13. Ação contra mudança global do clima</option>
+                                <option value="14">14. Vida na água</option>
+                                <option value="15">15. Vida terrestre</option>
+                                <option value="16">16. Paz, justiça e instituições eficazes</option>
+                                <option value="17">17. Parcerias e meios de implementação</option>
+                            </select>
+                        </div>
+
+
+                        <div class="col-12 col-md-6">
+                            <select class="form-select formulario_select textos" aria-label="Default select example">
+                                <option selected>Estado</option>
+                                <option value="1">Acre</option>
+                                <option value="2">Alagoas</option>
+                                <option value="3">Amapá</option>
+                                <option value="4">Amazonas</option>
+                                <option value="5">Bahia</option>
+                                <option value="6">Ceará</option>
+                                <option value="7">Distrito Federal</option>
+                                <option value="8">Espírito Santo</option>
+                                <option value="9">Goiás</option>
+                                <option value="10">Maranhão </option>
+                                <option value="11">Mato Grosso</option>
+                                <option value="12">Mato Grosso do Sul</option>
+                                <option value="13">Minas Gerais</option>
+                                <option value="14">Pará</option>
+                                <option value="15">Paraíba</option>
+                                <option value="16">Paraná</option>
+                                <option value="17">Pernambuco</option>
+                                <option value="18">Piauí</option>
+                                <option value="19">Rio de Janeiro</option>
+                                <option value="20">Rio Grande do Norte</option>
+                                <option value="21">Rio Grande do Sul</option>
+                                <option value="22">Rondônia</option>
+                                <option value="23">Roraima</option>
+                                <option value="24">Santa Catarina</option>
+                                <option value="25">São Paulo</option>
+                                <option value="26">Sergipe </option>
+                                <option value="27">Tocantins</option>
+
+                            </select>
+                        </div>
+
+
+                        <div class="col-12 col-md-6">
+                            <select class="form-select formulario_select textos" aria-label="Default select example">
+                                <option selected>Cidade</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+
+                            <select class="form-select formulario_select textos" aria-label="Default select example">
+                                <option selected>Ano</option>
+                                <option value="1">2023</option>
+                                <option value="2">2022</option>
+                                <option value="3">2021</option>
+                                <option value="4">2020</option>
+                                <option value="5">2019</option>
+                                <option value="6">2018</option>
+                                <option value="7">2017</option>
+                                <option value="8">2016</option>
+                                <option value="9">2015</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-primary rounded-5 m-1 px-4">Buscar</a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Fim da seção pesquisa -->
+
+    <!-- Inicio seção projetos -->
+    <section class="container_projetos ">
+        <div class="container ">
+            <h5 class="titulos apoiadores pb-2">Projetos em alta</h5>
+            <div class="container_card_projeto ">
+                <div class="container-cards justify-content-center ">
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card cartao_projetos">
+                            <img src="Imagens/horta_comuni.jpg" class="img-card-projeto" alt="...">
+                            <div class="card-body">
+                                <h5 class="titulos_secundario">Horta Comunitária 1</h5>
+                                <p class="card-text textos texto-projeto">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Nostrum, veniam rem, maiores vero placeat eveniet natus animi expedita nulla
+                                    delectus quaerat possimus? Eius consectetur doloribus quam, tempore porro
+                                    ducimus similique!</p>
+                                    <div class="container_bandeira">
+                                        <p class="texto_xs"><img src="Imagens/ods2Icone.png"
+                                                class="icone_cidade card-amarelo rounded-circle p-1">
+                                            Erradicar a fome</p>
+                                        <p class="texto_xs"><img src="Imagens/banderia_rs.png"
+                                                class="icone_cidade">
+                                            Porto Alegre/RS</p>
+                                    </div>
+                                <a href="projeto.html" class="btn btn-primary rounded-5 m-1">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card cartao_projetos">
+                            <img src="Imagens/cozinha_comunitaria.jpg" class="img-card-projeto" alt="...">
+                            <div class="card-body">
+                                <h5 class="titulos_secundario">Cozinha solária 2</h5>
+                                <p class="card-text textos texto-projeto">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Nostrum, veniam rem, maiores vero placeat eveniet natus animi expedita nulla
+                                    delectus quaerat possimus? Eius consectetur doloribus quam, tempore porro
+                                    ducimus similique!</p>
+                                    <div class="container_bandeira">
+                                        <p class="texto_xs"><img src="Imagens/ods2Icone.png"
+                                                class="icone_cidade card-amarelo rounded-circle p-1">
+                                            Erradicar a fome</p>
+                                        <p class="texto_xs"><img src="Imagens/banderia_rs.png"
+                                                class="icone_cidade">
+                                            Porto Alegre/RS</p>
+                                    </div>
+                                <a href="projeto.html" class="btn btn-primary rounded-5 m-1">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card cartao_projetos">
+                            <img src="Imagens/horta_comuni.jpg" class="img-card-projeto" alt="...">
+                            <div class="card-body">
+                                <h5 class="titulos_secundario">Horta Comunitária 3</h5>
+                                <p class="card-text textos texto-projeto">Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing
+                                    elit.
+                                    Nostrum, veniam rem, maiores vero placeat eveniet natus animi expedita nulla
+                                    delectus quaerat possimus? Eius consectetur doloribus quam, tempore porro
+                                    ducimus similique!</p>
+                                    <div class="container_bandeira">
+                                        <p class="texto_xs"><img src="Imagens/ods2Icone.png"
+                                                class="icone_cidade card-amarelo rounded-circle p-1">
+                                            Erradicar a fome</p>
+                                        <p class="texto_xs"><img src="Imagens/banderia_rs.png"
+                                                class="icone_cidade">
+                                            Porto Alegre/RS</p>
+                                    </div>
+                                <a href="projeto.html" class="btn btn-primary rounded-5 m-1">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination d-flex justify-content-center pb-5 pt-4 m-0">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <!-- Fim seção projetos -->
+
+    <!-- Inicio da seção dos links das redes somar -->
+    <section class="social_links">
+        <div class="social_links d-flex justify-content-around bg-primary ">
+            <!-- Seção dos links dos integrantes -->
+            <div>
+                <ul class="col p-3">
+                    <h5 class="titulos">Somar</h5>
+                    <li><a href="#" class="textos">FecomércioRS</a></li>
+                    <li><a href="#" class="textos">Sindicato</a></li>
+                    <li><a href="#" class="textos">Sesc</a></li>
+                    <li><a href="#" class="textos">Senac</a></li>
+                </ul>
+            </div>
+            <!-- Seção das redes sociais do somar -->
+            <div>
+                <ul class=" align-items-center col">
+                    <h5 class="titulos">Redes Sociais</h5>
+                    <div class="d-flex col-sm-6">
+                        <li class="p-1"><a href="#"><i class="bi bi-whatsapp fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-facebook fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-instagram fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-linkedin fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-youtube fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-spotify fs-4"></i></a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Fim da seção dos links das redes somar -->
+
+    <!-- Inicio da seção do footer -->
+    <footer class="align-items-center">
+        <div class="footer__login texto_xs">
+            <!-- Icone do programa e texto -->
+            <div class="login__pessoal">
+                <a href="index.html" class="conta__fonte"><img src="Imagens/iconeTransparente.png"
+                        class="conta__icone pe-1">PROGRAMA SOMAR</a>
+            </div>
+            <!-- copyright -->
+            <div class="align-items-center container__copyright ">
+
+                <p class="conta__fonte"><i class="bi bi-c-circle fs-6 pe-1"></i> 2023 Tech Titan. Todos os
+                    direitos reservados.</p>
+            </div>
+
+            <!-- seção do link de login -->
+            <div class="login__pessoal">
+                <a href="login.html" class="textos_xs conta__fonte align-items-center d-flex"> <i
+                        class="bi bi-person-circle fs-6 pe-1"></i>Acesse
+                    sua conta</a>
+            </div>
+        </div>
+        </div>
+
+
+
+    </footer>
+    <!-- Inicio da seção do footer -->
+
+    <!-- Importando script do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa SOMAR</title>
+    <!-- Importando icone aba -->
+    <link rel="icon" href="Imagens/iconeTransparente.png">
+
+    <!-- Importando css reset -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- Importando css do bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+
+    <!-- Importando css -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="bg-primary-subtle">
+    <!-- Inicio do cabecalho da pagina -->
+    <header class="cabecalho">
+        <!-- Inicio do icone do cabeçalho -->
+        <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+            <div class="container-fluid">
+                <a class="nav-link active" aria-current="page" href="index.html">
+                    <h1 class="m-0"><img src="Imagens/logoNomeTransparente.png" alt="logo Programa Somar"
+                            class="d-block"></h1>
+                </a>
+                <button class="navbar-toggler rounded-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active titulo_nav" href="#">Objetivos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active titulo_nav" href="#">Regiões</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-nowrap titulo_nav" href="#">Fale conosco</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 rounded-5 textos_xs" type="search"
+                            placeholder="Busque por nome, regiao, etc" aria-label="Search" />
+                        <button class="btn btn-light rounded-5" type="submit">
+                            Buscar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Fim do cabeçalho -->
+
+    </header>
+
+    <!-- Inicio da seção sobre -->
+    <section class="container__sobre d-flex justify-content-center align-items-center">
+        <div class="card__sobre">
+            <!-- Seção do card -->
+            <div class="card align-items-center">
+                <img src="Imagens/circuloODS.png" alt="" class="img-fluid icone-onu">
+                <div class="card-body">
+                    <h5 class="card-title text-center titulos">Sobre o programa SOMAR</h5>
+                    <p class="card-text text-start textos">O <strong>SOMAR</strong> é o novo programa de impacto social
+                        do
+                        Sistema
+                        Fecomércio-RS/Sesc/Senac.
+                        Por meio dele, serão executados projetos que transformem realidades das comunidades em que o
+                        sistema
+                        atua e que contribuam para os Objetivos de Desenvolvimento Sustentável, da ONU e bandeiras
+                        Fecomércio. Possuem como objetivo final a transformação de uma realidade vigente, sempre levando
+                        em
+                        consideração as questões sociais, ambientais e de governança das instituições. Sua execução está
+                        atrelada aos serviços ofertados pelo Sistema e seus públicos atendidos. São potencializados em
+                        parceria com outras partes interessadas, fortalecendo a imagem e o protagonismo do Sistema
+                        Comércio.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim da seção sobre -->
+
+    <!-- Inicio do carousel -->
+    <section class="container__caroussel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagens/igualdade-fundo-laranja.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="titulos_caroussel">Igualdade de gênero</h5>
+                        <p class="textos_caroussel d-none d-md-block"">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Sequi a totam similique modi, accusantium vero optio at nesciunt voluptatibus error
+                            temporibus
+                            dolorem magni omnis. Libero dolores provident dolorum aliquam voluptates.</p>
+                        <a href=" #" class="btn btn-primary rounded-5 m-1">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/fome-fundo-verde.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="titulos_caroussel">Combate à fome</h5>
+                        <p class="textos_caroussel d-none d-md-block">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Sequi a totam similique modi, accusantium vero optio at nesciunt voluptatibus error
+                            temporibus
+                            dolorem magni omnis. Libero dolores provident dolorum aliquam voluptates.</p>
+                        <a href="#" class="btn btn-primary rounded-5 m-1">Saiba mais</a>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/vida-marinha-fundo-azul.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="titulos_caroussel">Vida nas águas</h5>
+                        <p class="textos_caroussel d-none d-md-block">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Sequi a totam similique modi, accusantium vero optio at nesciunt voluptatibus error
+                            temporibus
+                            dolorem magni omnis. Libero dolores provident dolorum aliquam voluptates.</p>
+                        <a href="#" class="btn btn-primary rounded-5 m-1">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- Fim do carousel -->
+
+    <!-- Inicio dos cards dos OBJETIVOS -->
+    <section class="container__cards">
+        <div class="container  bg-light rounded-1">
+            <h2 class="text-center titulos">Os Objetivos de Desenvolvimento Sustentável no Brasil</h2>
+            <div class="container-cards">
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+
+                    <div
+                        class="card-body card__ods card-rosa rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="texto-ods text-white">1. Erradicar a pobreza</h5>
+
+                        <img src="Imagens/ods1Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador1.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos1.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+
+                    <div
+                        class="card-body card__ods card-amarelo rounded-1 d-flex flex-column align-items-center justify-content-evenly ">
+                        <h5 class="card-title text-center texto-ods text-white">2. Erradicar a fome</h5>
+
+                        <img src="Imagens/ods2Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador2.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos2.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-verde rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">3. Saúde e bem-estar</h5>
+
+                        <img src="Imagens/ods3Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador3.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos3.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-rosa rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">4. Educação de qualidade</h5>
+
+                        <img src="Imagens/ods4Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador4.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos4.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-laranja rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">5. Igualdade de gênero</h5>
+
+                        <img src="Imagens/ods5Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador5.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos5.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-azul rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">6. Água potável e saneamento</h5>
+
+                        <img src="Imagens/ods6Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador6.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos6.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-amarelo rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">7. Energia limpa e acessível</h5>
+
+                        <img src="Imagens/ods7Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador7.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos7.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-rosa rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">8. Trabalho descente e crescimento
+                            econômico</h5>
+
+                        <img src="Imagens/ods8Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador8.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos8.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-laranja rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">9. Indústria, inovação e infraestrutura
+                        </h5>
+
+                        <img src="Imagens/ods9Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador9.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos9.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-rosa rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">10. Redução das desigualdades</h5>
+
+                        <img src="Imagens/ods10Icone.png" alt="" class="icone__ods-celular">
+
+                        <div class="btn_cards">
+                            <a href="indicador10.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos10.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-amarelo rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">11. Cidades e comunidades sustentáveis
+                        </h5>
+
+                        <img src="Imagens/ods11Icone.png" alt="" class="icone__ods-celular">
+                        <div class="btn_cards">
+                            <a href="indicador11.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos11.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-laranja rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">12. Consumo e produção responsáveis</h5>
+                        <img src="Imagens/ods12Icone.png" alt="" class="icone__ods-celular">
+                        <div class="btn_cards">
+                            <a href="indicador12.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos11.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-verde rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">13. Ação contra mudança global do clima
+                        </h5>
+                        <img src="Imagens/ods13Icone.png" alt="" class="icone__ods-celular">
+                        <div class="btn_cards">
+                            <a href="indicador13.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos13.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-azul rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">14. Vida na água</h5>
+                        <img src="Imagens/ods14Icone.png" alt="" class="icone__ods-celular">
+                        <div class="btn_cards">
+                            <a href="indicador14.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos14.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-verde rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">15. Vida terrestre</h5>
+                        <img src="Imagens/ods15Icone.png" alt="" class="icone__ods-celular">
+                        <div class="btn_cards">
+                            <a href="indicador15.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos15.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-azul rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">16. Paz, justiça e instituições eficazes
+                        </h5>
+                        <img src="Imagens/ods16Icone.png" alt="" class="icone__ods-celular">
+                        <div class="btn_cards">
+                            <a href="indicador16.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos16.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 col-md-3 col-xxl-2 mb-2 d-flex justify-content-evenly p-2">
+                    <div
+                        class="card-body card__ods card-laranja rounded-1 d-flex flex-column align-items-center justify-content-evenly">
+                        <h5 class="card-title text-center texto-ods text-white">17. Parcerias e meios de implementação
+                        </h5>
+                        <img src="Imagens/ods17Icone.png" alt="" class="icone__ods-celular">
+                        <div class="btn_cards">
+                            <a href="indicador17.html" class="btn btn-light rounded-5 m-1">Saiba mais</a>
+                            <a href="projetos17.html" class="btn d-none d-md-block btn-light rounded-5 m-1">Projetos</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <!-- Fim dos cards dos OBJETIVOS -->
+
+    <!-- Inicio seção dos apoiadores -->
+    <section class="apoiadores">
+        <div class="container row m-0 ">
+            <h5 class="titulos apoiadores pb-2">Apoiadores</h5>
+            <div class="apoiadores ">
+                <div class="col-6 col-md-4 col-xxl-2 apoiadores pb-4">
+                    <div class="rounded-circle mb-2">
+                        <img src="Imagens/apoiador.png" alt="Logo do apoiador">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xxl-2 apoiadores pb-4">
+                    <div class="rounded-circle mb-2">
+                        <img src="Imagens/apoiador.png" alt="Logo do apoiador">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xxl-2 apoiadores pb-4">
+                    <div class="rounded-circle mb-2">
+                        <img src="Imagens/apoiador.png" alt="Logo do apoiador">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xxl-2 apoiadores pb-4">
+                    <div class="rounded-circle mb-2">
+                        <img src="Imagens/apoiador.png" alt="Logo do apoiador">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xxl-2 apoiadores pb-4">
+                    <div class="rounded-circle mb-2">
+                        <img src="Imagens/apoiador.png" alt="Logo do apoiador">
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-xxl-2 apoiadores pb-4">
+                    <div class="rounded-circle mb-2">
+                        <img src="Imagens/apoiador.png" alt="Logo do apoiador">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim seção dos apoiadores -->
+
+    <!-- Inicio da seção dos links das redes somar -->
+    <section class="social_links">
+        <div class="social_links d-flex justify-content-around bg-primary ">
+            <!-- Seção dos links dos integrantes -->
+            <div>
+                <ul class="col p-3">
+                    <h5 class="titulos">Somar</h5>
+                    <li><a href="#" class="textos">FecomércioRS</a></li>
+                    <li><a href="#" class="textos">Sindicato</a></li>
+                    <li><a href="#" class="textos">Sesc</a></li>
+                    <li><a href="#" class="textos">Senac</a></li>
+                </ul>
+            </div>
+            <!-- Seção das redes sociais do somar -->
+            <div>
+                <ul class=" align-items-center col">
+                    <h5 class="titulos">Redes Sociais</h5>
+                    <div class="d-flex col-sm-6">
+                        <li class="p-1"><a href="#"><i class="bi bi-whatsapp fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-facebook fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-instagram fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-linkedin fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-youtube fs-4"></i></a></li>
+                        <li class="p-1"><a href="#"><i class="bi bi-spotify fs-4"></i></a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Fim da seção dos links das redes somar -->
+
+    <!-- Inicio da seção do footer -->
+    <footer class="align-items-center">
+        <div class="footer__login texto_xs">
+            <!-- Icone do programa e texto -->
+            <div class="login__pessoal">
+                <a href="index.html" class="conta__fonte"><img src="Imagens/iconeTransparente.png"
+                        class="conta__icone pe-1">PROGRAMA SOMAR</a>
+            </div>
+            <!-- copyright -->
+            <div class="align-items-center container__copyright ">
+
+                <p class="conta__fonte"><i class="bi bi-c-circle fs-6 pe-1"></i> 2023 Tech Titan. Todos os
+                    direitos reservados.</p>
+            </div>
+
+            <!-- seção do link de login -->
+            <div class="login__pessoal">
+                <a href="login.html" class="textos_xs conta__fonte align-items-center d-flex"> <i
+                        class="bi bi-person-circle fs-6 pe-1"></i>Acesse
+                    sua conta</a>
+            </div>
+        </div>
+        </div>
+
+
+
+    </footer>
+    <!-- Inicio da seção do footer -->
+
+    <!-- Importando script do bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

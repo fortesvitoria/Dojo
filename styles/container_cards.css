@@ -1,0 +1,93 @@
+/* CSS da seção de cards ODS */
+.container__cards {
+    padding: 4em;
+    text-align: center;
+    background: url(../imagens/fundoOndasColoridasGGTT.png)repeat;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.card-body {
+   
+    align-content: center;
+}
+
+.card-rosa {
+    background-color: var(--rosa);
+
+}
+
+.card-amarelo {
+    background-color: var(--amarelo);
+}
+
+.card-verde {
+    background-color: var(--verde);
+}
+
+.card-laranja {
+    background-color: var(--laranja);
+}
+
+.card-azul {
+    background-color: var(--azul);
+}
+
+.texto-ods {
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn-light {
+    width: 110px;
+}
+
+.icone__ods-celular {
+    width: 50%;
+}
+
+.card__ods {
+    width: 200px;
+    height: 300px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container__cards {
+        padding: 1em;
+        align-items: center;
+    }
+
+    .card__ods {
+        width: 150px;
+        height: 250px;
+    }
+
+    .icone__ods-celular {
+        width: 40%;
+    }
+
+    .card__ods {
+        width: 150px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+
+    .icone__ods-celular {
+        width: 30%;
+    }
+
+    .card__ods {
+        width: 150px;
+        height: 200px;
+    }
+
+}
+
