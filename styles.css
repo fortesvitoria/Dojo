@@ -39,6 +39,8 @@
 }
 body {
     width: 100vw;
+    overflow-x: hidden;
+    
 }
 .titulos {
     font-family: var(--fonte-primaria);
@@ -48,7 +50,14 @@ body {
     font-weight: 600;
 }
 
-.textos,
+#texto-principal {
+    font-size: 1.2em;
+    text-indent: 10px;
+    max-width: 600px;
+    padding: 20px;
+    text-align: justify!important;
+}
+
 .btn {
     font-size: 14px;
     font-family: var(--fonte-secundaria);
