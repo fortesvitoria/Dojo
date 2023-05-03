@@ -10,6 +10,15 @@
     font-family: var(--fonte-secundaria);
 }
 
+#texto-principal {
+    max-width: 1000px;
+    padding: 20px;
+    text-align: justify!important;
+}
+.container__caroussel {
+    max-width: 1000px;
+    margin: auto; /*  Caroussel muito grande pode distorcer a qualidade das imagens dele ( caso as imagens forem de baixa qualidade ) */
+}
 
 @media screen and (max-width: 875px) {
     .titulos_caroussel {

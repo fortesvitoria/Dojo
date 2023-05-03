@@ -15,3 +15,7 @@
     font-size: 16px;
     font-family: var(--fonte-primaria);
 }
+
+.botao_nav {
+    padding-left: 1em;
+}
