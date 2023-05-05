@@ -7,3 +7,8 @@
 .imagem_projeto_caroussel {
     max-width: 800px;
 }
+
+.container_video-projeto {
+    background: url(../imagens/fundoOndasColoridasGGTT.png);
+
+}
