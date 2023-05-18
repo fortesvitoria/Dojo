@@ -62,19 +62,29 @@
 
     <!-- Inicio da seção diretor -->
     <section class="container__sobre d-flex justify-content-center align-items-center">
-        <div class="card__sobre">
+        <div class="card__sobre container-diretor">
             <!-- Seção do card -->
-            <div class="card align-items-center">
+            <div class="card align-items-center container-diretor">
                 <img src="Imagens/diretora.png" alt="" class="img-fluid img-diretor">
-                <a href="#" class="texto_xs link align-items-center">
+                <a class="texto_xs link align-items-center" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                     Editar <i class="bi bi-pencil-fill"></i>
                 </a>
                 <h5 class="card-title text-center titulos">Bem vindo(a) <span id="diretorFoto">Diretora</span></h5>
                     
-                <div class="card-body projetos-diretor">
-                    <button href="#" class="btn d-none d-md-block btn-primary rounded-5 m-1">Meus Projetos</button>
-                    <button href="#" class="btn d-none d-md-block btn-primary rounded-5 m-1">Adicionar Projeto</button>
-                </div>
+                <div class="card-body projetos-diretor"><p>
+                    <button class="btn btn-primary rounded-5 m-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                        Meus Projetos
+                    </button>
+                    <button class="btn btn-primary rounded-5 m-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                        Adicionar Projeto
+                      </button>                    
+                  </p>
+                </div>                
+                  <div class="collapse show" id="collapseExample" >
+                    <div class="card card-body">
+                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    </div>
+                  </div>
             </div>
         </div>
     </section>
