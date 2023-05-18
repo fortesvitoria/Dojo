@@ -13,3 +13,7 @@
 .projetos-diretor {
     display: flex;
 }
+
+.collapse-card {
+    width: 100%;
+}
