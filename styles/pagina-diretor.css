@@ -1,0 +1,11 @@
+
+.img-diretor {
+    width: 10em;
+    border-radius: 10em;
+    border: 3px solid var(--azul);
+    margin-bottom: 0.5em;
+}
+
+.projetos-diretor {
+    display: flex;
+}
