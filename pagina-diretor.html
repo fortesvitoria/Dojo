@@ -79,7 +79,7 @@
                             Meus Projetos
                         </button>
                         <button class="btn btn-primary rounded-5 m-1" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseAdicionar" aria-expanded="true" aria-controls="collapseExample">
+                            data-bs-target="#collapseAdicionar" aria-expanded="true" aria-controls="collapseAdicionar">
                             Adicionar Projeto
                         </button>
                     </p>
@@ -90,15 +90,138 @@
     <!-- Fim da seção diretor -->
     <!-- Card do editar imagem -->
     <section class="container-collapse ">
-        <div class="card__sobre container-diretor">
+        <div class="container-diretor">
             <!-- Seção do card -->
-            <div class="card">
-                <div class="collapse show " id="collapseAdicionar">
-                    <div class="input-group mb-3 grupo-input">
-                        
-                    </div>
+            <div class="collapse show " id="collapseAdicionar">
+                <div class="input-group mb-3 grupo-input">
+                    <section class="d-flex justify-content-center">
+                        <div class="card card_pesquisa_avancada p-4">
+                            <!-- <div class="card-body"> -->
 
-                    <p class="texto_xs m-1">Faça o upload de sua foto no formato JPGE ou PNG</p>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="input-group mb-3 formulario_input">
+                                        <span class="input-group-text textos rounded-start-pill"
+                                            id="inputGroup-sizing-default">Nome do
+                                            projeto</span>
+                                        <input type="text" class="form-control rounded-end-pill"
+                                            aria-label="Sizing example input"
+                                            aria-describedby="inputGroup-sizing-default">
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <select class="form-select formulario_select textos rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>Objetivo</option>
+                                        <option value="1">1. Erradicar a pobreza</option>
+                                        <option value="2">2. Erradicar a fome</option>
+                                        <option value="3">3. Saúde e bem-estar</option>
+                                        <option value="4">4. Educação de qualidade</option>
+                                        <option value="5">5. Igualdade de gênero</option>
+                                        <option value="6">6. Água potável e saneamento</option>
+                                        <option value="7">7. Energia limpa e acessível</option>
+                                        <option value="8">8. Trabalho descente e crescimento</option>
+                                        <option value="9">9. Indústria, inovação e infraestrutura</option>
+                                        <option value="10">10. Redução das desigualdades</option>
+                                        <option value="11">11. Cidades e comunidades sustentáveis</option>
+                                        <option value="12">12. Consumo e produção responsáveis</option>
+                                        <option value="13">13. Ação contra mudança global do clima</option>
+                                        <option value="14">14. Vida na água</option>
+                                        <option value="15">15. Vida terrestre</option>
+                                        <option value="16">16. Paz, justiça e instituições eficazes</option>
+                                        <option value="17">17. Parcerias e meios de implementação</option>
+                                    </select>
+                                </div>
+
+
+                                <div class="col-12 col-md-6">
+                                    <select class="form-select formulario_select textos rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>Estado</option>
+                                        <option value="1">Acre</option>
+                                        <option value="2">Alagoas</option>
+                                        <option value="3">Amapá</option>
+                                        <option value="4">Amazonas</option>
+                                        <option value="5">Bahia</option>
+                                        <option value="6">Ceará</option>
+                                        <option value="7">Distrito Federal</option>
+                                        <option value="8">Espírito Santo</option>
+                                        <option value="9">Goiás</option>
+                                        <option value="10">Maranhão </option>
+                                        <option value="11">Mato Grosso</option>
+                                        <option value="12">Mato Grosso do Sul</option>
+                                        <option value="13">Minas Gerais</option>
+                                        <option value="14">Pará</option>
+                                        <option value="15">Paraíba</option>
+                                        <option value="16">Paraná</option>
+                                        <option value="17">Pernambuco</option>
+                                        <option value="18">Piauí</option>
+                                        <option value="19">Rio de Janeiro</option>
+                                        <option value="20">Rio Grande do Norte</option>
+                                        <option value="21">Rio Grande do Sul</option>
+                                        <option value="22">Rondônia</option>
+                                        <option value="23">Roraima</option>
+                                        <option value="24">Santa Catarina</option>
+                                        <option value="25">São Paulo</option>
+                                        <option value="26">Sergipe </option>
+                                        <option value="27">Tocantins</option>
+
+                                    </select>
+                                </div>
+
+
+                                <div class="col-12 col-md-6">
+                                    <select class="form-select formulario_select textos rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>Cidade</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+
+                                    <select class="form-select formulario_select textos rounded-pill"
+                                        aria-label="Default select example">
+                                        <option selected>Ano</option>
+                                        <option value="1">2023</option>
+                                        <option value="2">2022</option>
+                                        <option value="3">2021</option>
+                                        <option value="4">2020</option>
+                                        <option value="5">2019</option>
+                                        <option value="6">2018</option>
+                                        <option value="7">2017</option>
+                                        <option value="8">2016</option>
+                                        <option value="9">2015</option>
+                                    </select>
+                                </div>
+
+                                <div class="collapse show " id="collapseEditar">
+                                    <div class="input-group mb-3 grupo-input">
+                                        <input type="file" class="form-control rounded-start-pill" id="inputGroupFile2">
+                                        <label class="input-group-text rounded-end-pill" for="inputGroupFile02">Enviar
+                                            imagem</label>
+                                    </div>
+
+                                    <p class="texto_xs m-1 mb-2">Faça o upload de sua foto no formato JPGE ou PNG</p>
+                                </div>
+
+                                <div class="mb-4">
+                                    <div class="input-group">
+                                        <span class="input-group-text rounded-start-pill"
+                                            id="basic-addon3">https://www.seuvideo.com.br/</span>
+                                        <input type="text" class="form-control rounded-end-pill" id="basic-url"
+                                            aria-describedby="basic-addon3 basic-addon4">
+                                    </div>
+                                </div>
+
+                                <a href="#" class="btn btn-primary rounded-5 m-1 px-4">Enviar projeto</a>
+
+
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>
@@ -112,7 +235,7 @@
                         <label class="input-group-text rounded-end-pill" for="inputGroupFile02">Enviar imagem</label>
                     </div>
 
-                    <p class="texto_xs m-1">Faça o upload de sua foto no formato JPGE ou PNG</p>
+                    <p class="texto_xs m-1">Faça o upload de até cinco fotos do seu projeto no formato JPGE ou PNG</p>
                 </div>
             </div>
         </div>
