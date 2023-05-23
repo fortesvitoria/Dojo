@@ -69,3 +69,8 @@ body {
 .link {
     text-decoration: none;
 }
+
+.btn-tamanho {
+    align-self: center;
+    width: 150px;
+}
