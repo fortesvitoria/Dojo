@@ -1,11 +1,12 @@
-.textos, .btn {
+.textos,
+.btn {
     font-size: 16px;
     font-family: var(--fonte-secundaria);
 }
 
 .texto_xs {
     font-family: var(--fonte-secundaria);
-        font-size: 12px;
+    font-size: 12px;
 }
 
 .titulos_secundario {
@@ -36,14 +37,14 @@
     justify-content: start;
 }
 
-.btn_btn_ods{
+.btn_btn_ods {
     display: flex;
     justify-content: center;
     padding: 0.5em 0;
 }
 
 
-.icone_ods_indicador{
+.icone_ods_indicador {
     width: 80px;
 }
 
@@ -65,77 +66,176 @@
 
 .card_indicador .icone_ods_indicador {
     display: block;
-  }
-  
-  .card_indicador .texto_btn_indicadores {
+}
+
+.card_indicador .texto_btn_indicadores {
     display: none;
-  }
-  
-  .card_indicador:hover .icone_ods_indicador {
+}
+
+.card_indicador:hover .icone_ods_indicador {
     display: none;
-  }
-  
-  .card_indicador:hover .texto_btn_indicadores {
+}
+
+.card_indicador:hover .texto_btn_indicadores {
     display: block;
-  }
-
-  
-.botao-rosa {
-    background-color: var(--rosa);
-    border-color: var(--rosa);
 }
 
-.botao-rosa:hover {
-    background-color: var(--rosa-hover);
-    border-color: var(--rosa-hover);
+.btn-ods-1 {
+    background-color: var(--ods-1);
+    border-color: var(--ods-1);
+}
+.btn-ods-1:hover {
+    background-color: var(--ods-1-hover);
+    border-color: var(--ods-1-hover);
 }
 
-.botao-laranja {
-    background-color: var(--laranja);
-    border-color: var(--laranja);
+.btn-ods-2 {
+    background-color: var(--ods-2);
+    border-color: var(--ods-2);
+}
+.btn-ods-2:hover {
+    background-color: var(--ods-2-hover);
+    border-color: var(--ods-2)--ods-2-hover;
 }
 
-.botao-laranja:hover {
-    background-color: var(--laranja-hover);
-    border-color: var(--laranja-hover);
+.btn-ods-3 {
+    background-color: var(--ods-3);
+    border-color: var(--ods-3);
+}
+.btn-ods-3:hover {
+    background-color: var(--ods-3-hover);    
+    border-color: var(--ods-3-hover);
 }
 
-.botao-azul {
-    background-color: var(--azul);
-    border-color: var(--azul);
+.btn-ods-4 {
+    background-color: var(--ods-4);
+    border-color: var(--ods-4);
+}
+.btn-ods-4:hover {
+    background-color: var(--ods-4-hover);    
+    border-color: var(--ods-4-hover);
 }
 
-.botao-azul:hover {
-    background-color: var(--azul-hover);
-    border-color: var(--azul-hover);
+.btn-ods-5 {
+    background-color: var(--ods-5);
+    border-color: var(--ods-5);
+}
+.btn-ods-5:hover {
+    background-color: var(--ods-5-hover);    
+    border-color: var(--ods-5);
+}
+
+.btn-ods-6 {
+    background-color: var(--ods-6);
+    border-color: var(--ods-6);
+}
+.btn-ods-6:hover {
+    background-color: var(--ods-6-hover);    
+    border-color: var(--ods-6-hover);
+}
+
+.btn-ods-7 {
+    background-color: var(--ods-7);
+    border-color: var(--ods-7);
+}
+.btn-ods-7:hover {
+    background-color: var(--ods-7-hover);    
+    border-color: var(--ods-7-hover);
+}
+
+.btn-ods-8 {
+    background-color: var(--ods-8);
+    border-color: var(--ods-8);
+}
+.btn-ods-8:hover {
+    background-color: var(--ods-8-hover);    
+    border-color: var(--ods-8-hover);
+}
+
+.btn-ods-9 {
+    background-color: var(--ods-9);
+    border-color: var(--ods-9);
+}
+.btn-ods-9:hover {
+    background-color: var(--ods-9-hover);    
+    border-color: var(--ods-9-hover);
+}
+
+.btn-ods-10 {
+    background-color: var(--ods-10);
+    border-color: var(--ods-10);
+}
+.btn-ods-10:hover {
+    background-color: var(--ods-10-hover);    
+    border-color: var(--ods-10-hover);
+}
+
+.btn-ods-11 {
+    background-color: var(--ods-11);
+    border-color: var(--ods-11);
+}
+.btn-ods-11:hover {
+    background-color: var(--ods-11-hover);    
+    border-color: var(--ods-11-hover);
+}
+
+.btn-ods-12 {
+    background-color: var(--ods-12);
+    border-color: var(--ods-12);
+}
+.btn-ods-12:hover {
+    background-color: var(--ods-12-hover);
+    border-color: var(--ods-12-hover);
+}
+
+.btn-ods-13 {
+    background-color: var(--ods-13);
+    border-color: var(--ods-13);
+}
+.btn-ods-13:hover {
+    background-color: var(--ods-13-hover);
+    border-color: var(--ods-13-hover);
+}
+
+.btn-ods-14 {
+    background-color: var(--ods-14);
+    border-color: var(--ods-14);
+}
+.btn-ods-14:hover {
+    background-color: var(--ods-14-hover);
+    border-color: var(--ods-14-hover);
+}
+
+.btn-ods-15 {
+    background-color: var(--ods-15);
+    border-color: var(--ods-15);
+}
+.btn-ods-15:hover {
+    background-color: var(--ods-15-hover);
+    border-color: var(--ods-15-hover);
+}
+
+.btn-ods-16 {
+    background-color: var(--ods-16);
+    border-color: var(--ods-16);
+}
+.btn-ods-16:hover {
+    background-color: var(--ods-16-hover);
+    border-color: var(--ods-16-hover);
+}
+
+.btn-ods-17 {
+    background-color: var(--ods-17);
+    border-color: var(--ods-17);
+}
+.btn-ods-17:hover {
+    background-color: var(--ods-17-hover);
+    border-color: var(--ods-17-hover);
 }
 
 
-.botao-verde {
-    background-color: var(--verde);
-    border-color: var(--verde);
-}
 
-.botao-verde:hover {
-    background-color: var(--verde-hover);
-    border-color: var(--verde-hover);
-}
-
-.botao-amarelo {
-    background-color: var(--amarelo);
-    border-color: var(--amarelo);
-}
-
-.botao-amarelo:hover {
-    background-color: var(--amarelo-hover);
-    border-color: var(--amarelo-hover);
-}
-
-
-
-
-
-  @media screen and (max-width: 505px) {
+@media screen and (max-width: 505px) {
     .indicador2_img {
         width: 90%;
     }
@@ -149,4 +249,4 @@
         margin: 0 1em;
     }
 
-  }
+}

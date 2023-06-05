@@ -1,25 +1,5 @@
 /* CSS da seção de cards ODS */
 
-.card-rosa {
-    background-color: var(--rosa);
-}
-
-.card-amarelo {
-    background-color: var(--amarelo);
-}
-
-.card-verde {
-    background-color: var(--verde);
-}
-
-.card-laranja {
-    background-color: var(--laranja);
-}
-
-.card-azul {
-    background-color: var(--azul);
-}
-
 .texto-ods {
     font-family: var(--fonte-primaria);
     font-size: 14px;
