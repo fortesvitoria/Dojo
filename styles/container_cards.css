@@ -16,25 +16,56 @@
     align-content: center;
 }
 
-.card-rosa {
-    background-color: var(--rosa);
-
+.ods-1 {
+    background-color: var(--ods-1);
 }
-
-.card-amarelo {
-    background-color: var(--amarelo);
+.ods-2 {
+    background-color: var(--ods-2);
 }
-
-.card-verde {
-    background-color: var(--verde);
+.ods-3 {
+    background-color: var(--ods-3);
 }
-
-.card-laranja {
-    background-color: var(--laranja);
+.ods-4 {
+    background-color: var(--ods-4);
 }
-
-.card-azul {
-    background-color: var(--azul);
+.ods-5 {
+    background-color: var(--ods-5);
+}
+.ods-6 {
+    background-color: var(--ods-6);
+}
+.ods-7 {
+    background-color: var(--ods-7);
+}
+.ods-8 {
+    background-color: var(--ods-8);
+}
+.ods-9 {
+    background-color: var(--ods-9);
+}
+.ods-10 {
+    background-color: var(--ods-10);
+}
+.ods-11 {
+    background-color: var(--ods-11);
+}
+.ods-12 {
+    background-color: var(--ods-12);
+}
+.ods-13 {
+    background-color: var(--ods-13);
+}
+.ods-14 {
+    background-color: var(--ods-14);
+}
+.ods-15 {
+    background-color: var(--ods-15);
+}
+.ods-16 {
+    background-color: var(--ods-16);
+}
+.ods-17 {
+    background-color: var(--ods-17);
 }
 
 .texto-ods {
